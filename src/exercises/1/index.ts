@@ -61,6 +61,7 @@ Brief UI guide:
     +---------------+----------------------------------------------+
 
 Intro:
+介绍（场景导入）：
 
     We are starting a small community of users. For performance
     reasons we have decided to store all users right in the code.
@@ -69,11 +70,17 @@ Intro:
     All the GDPR-related issues we will solved some other day.
     This would be the base for our future experiments during
     these exercises.
+    我们正在建立一个小型的用户社区。
+    出于性能原因，我们决定在代码中存储所有用户。
+    通过这种方式，我们可以为开发者提供更多的用户交互机会。 至少是与用户相关的数据。
+    所有关于GDPR的问题，我们会在以后解决。
+    这将是我们在这些练习中未来实验的基础。
 
 Exercise:
+练习（目标）：
 
     Given the data, define the interface "User" and use it accordingly.
-
+    给定数据，定义接口“User”并相应地使用它。
 */
 
 export type User = unknown;
@@ -100,6 +107,6 @@ users.forEach(logPerson);
 
 
 /* In case if you are stuck:
-
+// 万一你卡住了:
 // https://www.typescriptlang.org/docs/handbook/interfaces.html#introduction
 */

@@ -9,24 +9,32 @@ import {
 /*
 
 Intro:
+介绍（场景导入）：
 
     In order to engage users in the communication with
     each other we have decided to decorate usernames
     in various ways. A brief search led us to a library
     called "str-utils". Bad thing is that it lacks
     TypeScript declarations.
+    为了让用户相互交流，我们决定用不同的方式来装饰用户名。
+    经过简短的搜索，我们来到了一个名为“str-utils”的lib库。
+    不好的地方是它没有TypeScript声明。
 
 Exercise:
+练习（目标）：
 
     Check str-utils module implementation at:
+    在以下文件中检查 str-utils 模块实现:
     node_modules/str-utils/index.js
     node_modules/str-utils/README.md
 
     Provide type declaration for that module in:
+    在以下文件中为该模块提供类型声明:
     declarations/str-utils/index.d.ts
 
     Try to avoid duplicates of type declarations,
     use type aliases.
+    尽量避免类型声明的重复，使用类型别名。
 
 */
 
@@ -95,4 +103,5 @@ function logPerson(person: Person) {
     .forEach(logPerson);
 
 // In case if you are stuck:
+// 万一你卡住了:
 // https://www.typescriptlang.org/docs/handbook/modules.html#ambient-modules

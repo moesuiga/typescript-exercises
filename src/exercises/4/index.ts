@@ -1,17 +1,23 @@
 /*
 
 Intro:
+介绍（场景导入）：
 
     As we introduced "type" to both User and Admin
     it's now easier to distinguish between them.
     Once object type checking logic was extracted
     into separate functions isUser and isAdmin -
     logPerson function got new type errors.
+    当我们向用户和管理员引入了“type”时，现在就能更容易地区分它们了。
+    一旦对象类型检查逻辑被提取到单独的函数 isUser和isAdmin 中 -
+    logPerson函数就会出现新的类型错误。
 
 Exercise:
+练习（目标）：
 
     Figure out how to help TypeScript understand types in
     this situation and apply necessary fixes.
+    找出如何帮助TypeScript在这种情况下理解类型，并应用必要的修复。
 
 */
 
@@ -66,4 +72,5 @@ console.log('Users:');
 persons.filter(isUser).forEach(logPerson);
 
 // In case if you are stuck:
+// 万一你卡住了:
 // https://www.typescriptlang.org/docs/handbook/advanced-types.html#using-type-predicates

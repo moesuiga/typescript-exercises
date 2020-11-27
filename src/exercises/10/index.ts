@@ -1,6 +1,7 @@
 /*
 
 Intro:
+介绍（场景导入）：
 
     We have asynchronous functions now, advanced technology.
     This makes us a tech startup officially now.
@@ -10,8 +11,14 @@ Intro:
     popular anymore and everyone should use Promises.
     He promised that if we switch to Promises, this would
     bring promising results.
+    我们现在有异步功能，先进的技术。
+    这让我们正式成为了一家科技创业公司。
+    但其中一位顾问破坏了我们关于未来不可避免的IT领导地位的梦想。
+    他说，基于回调的异步性已经不流行了，每个人都应该使用 Promise。
+    他承诺，如果我们转向 Promise，这将带来有希望的结果。
 
 Exercise:
+练习（目标）：
 
     We don't want to reimplement all the data-requesting
     functions. Let's decorate the old callback-based
@@ -20,16 +27,25 @@ Exercise:
     would resolve with the final data directly
     (i.e. users or admins) or would reject with an error
     (or type Error).
+    我们不想重新实现所有的数据请求函数。
+    让我们用新的与 Promise 兼容的结果来装饰旧的基于回调的函数。
+    最终函数应该返回一个 Promise，它将直接解决最终数据(即用户或管理员)，
+    或者拒绝一个错误(或类型错误)。
 
     The function should be named promisify.
+    这个函数应该命名为 promisify。
 
 Higher difficulty bonus exercise:
+高难度奖励练习：
 
     Create a function promisifyAll which accepts an object
     with functions and returns a new object where each of
     the function is promisified.
+    创建一个函数 promisifyAll，它接受一个带有函数的对象，
+    并返回一个新对象，其中每个函数都是 promisified。
 
     Rewrite api creation accordingly:
+    照着重写api创建：
 
         const api = promisifyAll(oldApi);
 
@@ -143,4 +159,5 @@ startTheApp().then(
 );
 
 // In case if you are stuck:
+// 万一你卡住了:
 // https://www.typescriptlang.org/docs/handbook/generics.html
