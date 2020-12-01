@@ -1,6 +1,7 @@
 /*
 
 Welcome to:
+欢迎来到：
 
     ................................................................
     .                                                              .
@@ -18,26 +19,35 @@ Welcome to:
 
     The goal: Let everyone play with many different TypeScript features
     and get an overview of TypeScript capabilities and principles.
+    目标: 让每个人都能使用许多不同的TypeScript特性，
+    并对TypeScript的功能和原理有一个大致的了解。
 
     Things to cover:
+    覆盖面：
 
-        1. Basic typing.
-        2. Refining types.
-        3. Union types.
-        4. Merged types.
-        5. Generics.
-        6. Type declarations.
-        7. Module augmentation.
-        8. Advanced type mapping.
+        1. Basic typing. 基本类型
+        2. Refining types. 精炼类型。
+        3. Union types. 联合类型
+        4. Merged types. 合并类型
+        5. Generics. 泛型
+        6. Type declarations. 类型声明
+        7. Module augmentation. 增加模块
+        8. Advanced type mapping. 高级的类型映射
 
     Rules and principles:
+    规则与原则：
 
         1. Avoid using "any" type at all costs.
+           尽量避免使用 "any" 类型
         2. Difficulty quickly grows one exercise after another.
+           一项接一项的练习难度迅速增加。
         3. Feel free to send pull-requests if you've came up
            with improvements!
+           如果有什么改进，请随意发送 pull-requests!
         4. Provide feedback to the creator of these exercises.
+           向这些练习的创建者提供反馈。
         5. Enjoy.
+           享受您的TS之旅吧。
 
 Brief UI guide:
 

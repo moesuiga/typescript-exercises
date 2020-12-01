@@ -18,8 +18,8 @@ Exercise:
     `personType` argument value. `type` field is not allowed in
     the `criteria` field.
     修正 filterPersons 的输入，
-    使得当 personType='User' 时它可以过滤用户并返回 User[]，
-    而当 personType='Admin' 时返回 Admin[]。
+    使得当 personType='user' 时它可以过滤用户并返回 User[]，
+    而当 personType='admin' 时返回 Admin[]。
     另外，filterPersons 应该根据 personType 接受部分 User/Admin 类型。
     “criteria” 参数应该根据 “personType” 参数值行为。
     “type” 字段不允许出现在 “criteria” 字段中。
