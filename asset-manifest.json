@@ -2,8 +2,8 @@
   "files": {
     "static/js/0.fdca4b35.chunk.js": "/typescript-exercises/static/js/0.fdca4b35.chunk.js",
     "static/js/0.fdca4b35.chunk.js.map": "/typescript-exercises/static/js/0.fdca4b35.chunk.js.map",
-    "main.js": "/typescript-exercises/static/js/main.7d49d1a2.chunk.js",
-    "main.js.map": "/typescript-exercises/static/js/main.7d49d1a2.chunk.js.map",
+    "main.js": "/typescript-exercises/static/js/main.5514c15c.chunk.js",
+    "main.js.map": "/typescript-exercises/static/js/main.5514c15c.chunk.js.map",
     "runtime-main.js": "/typescript-exercises/static/js/runtime-main.7f38587b.js",
     "runtime-main.js.map": "/typescript-exercises/static/js/runtime-main.7f38587b.js.map",
     "static/css/3.f5145c50.chunk.css": "/typescript-exercises/static/css/3.f5145c50.chunk.css",
@@ -143,7 +143,7 @@
     "index.html": "/typescript-exercises/index.html",
     "json.worker.js": "/typescript-exercises/json.worker.js",
     "json.worker.js.map": "/typescript-exercises/json.worker.js.map",
-    "precache-manifest.2982ca188a6d52fac62aff4475de09ad.js": "/typescript-exercises/precache-manifest.2982ca188a6d52fac62aff4475de09ad.js",
+    "precache-manifest.03a0d5d70ea3ac414f06fee49addd228.js": "/typescript-exercises/precache-manifest.03a0d5d70ea3ac414f06fee49addd228.js",
     "service-worker.js": "/typescript-exercises/service-worker.js",
     "static/css/3.f5145c50.chunk.css.map": "/typescript-exercises/static/css/3.f5145c50.chunk.css.map",
     "static/js/3.ed21f883.chunk.js.LICENSE.txt": "/typescript-exercises/static/js/3.ed21f883.chunk.js.LICENSE.txt",
@@ -157,6 +157,6 @@
     "static/js/runtime-main.7f38587b.js",
     "static/css/3.f5145c50.chunk.css",
     "static/js/3.ed21f883.chunk.js",
-    "static/js/main.7d49d1a2.chunk.js"
+    "static/js/main.5514c15c.chunk.js"
   ]
 }

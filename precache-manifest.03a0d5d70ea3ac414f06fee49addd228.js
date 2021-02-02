@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/typescript-exercises/editor.worker.js"
   },
   {
-    "revision": "d18f88ae272728f6d0313ab16ef13438",
+    "revision": "15dfa4bc6b1320b90f258135ac9b9908",
     "url": "/typescript-exercises/index.html"
   },
   {
@@ -292,8 +292,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/typescript-exercises/static/js/9.abbbf6d8.chunk.js"
   },
   {
-    "revision": "7195d7e5b507246d1fee",
-    "url": "/typescript-exercises/static/js/main.7d49d1a2.chunk.js"
+    "revision": "78426a57fe4ea557c140",
+    "url": "/typescript-exercises/static/js/main.5514c15c.chunk.js"
   },
   {
     "revision": "9d3a96e12900dd31fc42",
