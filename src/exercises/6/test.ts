@@ -1,4 +1,11 @@
-import {IsTypeEqual, FirstArgument, typeAssert} from 'type-assertions';
+import {
+  IsTypeEqual,
+  FirstArgument,
+  ThirdArgument,
+  IsNotAny,
+  typeAssert,
+  ArrayElement
+} from 'type-assertions';
 import {logPerson, Person, persons, filterPersons} from './index';
 
 typeAssert<
@@ -6,6 +13,24 @@ typeAssert<
         FirstArgument<typeof filterPersons>,
         ({name: string; age: number} & ({type: 'user'; occupation: string} | {type: 'admin'; role: string}))[]
     >
+>();
+
+// criteria 不能设为 any
+typeAssert<
+  IsNotAny<
+    ThirdArgument<typeof filterPersons>
+  >
+>();
+
+// 返回类型不能是 any any[]
+type FilterPersonsReturn = ReturnType<typeof filterPersons>;
+
+typeAssert<
+  IsNotAny<FilterPersonsReturn>
+>();
+
+typeAssert<
+  IsNotAny<ArrayElement<FilterPersonsReturn>>
 >();
 
 const filtered1 = filterPersons(persons, 'user', {});

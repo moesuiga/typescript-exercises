@@ -21,7 +21,7 @@ Exercise:
     all the fields in the code.
     定义类型 PowerUser，
     它应该包含 User 和 Admin 的所有字段(type除外)，
-    还应该包含 type “PowerUser”，
+    还应该包含 type "powerUser"，
     不要去复制代码中的所有字段。
 
 */
